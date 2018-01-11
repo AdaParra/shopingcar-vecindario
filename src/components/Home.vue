@@ -1,12 +1,12 @@
 <template>
   <div class="home">
-    <HeroVue></HeroVue>
+    <HeaderVue></HeaderVue>
   </div>
 </template>
 
 <script>
 
-import HeroVue from './Hero/hero'
+import HeaderVue from './Header/header'
 
 export default {
   name: 'Home',
@@ -16,7 +16,7 @@ export default {
     }
   },
   components: {
-    HeroVue
+    HeaderVue
   }
 }
 </script>
