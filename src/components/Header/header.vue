@@ -1,5 +1,5 @@
 <template>
-        <nav class="navbar is-dark is-fixed-top"> 
+        <nav class="navbar is-dark is-fixed-top">
           <div class="container">
             <div class="navbar-brand">
               <router-link :to="{ name: 'Home' }" class="navbar-item">
@@ -38,7 +38,7 @@
                     </span>
                     <span> {{ item4 }}</span>
                   <!--</a>-->
-                </router-link> 
+                </router-link>
                 </span>
               </div>
             </div>
@@ -53,10 +53,10 @@ export default {
   data () {
     return {
       item1: 'Inicio',
-      item2: 'Vehículos',
+      item2: 'Coches',
       item3: 'Conocenos',
       item4: 'Contactanos',
-      item5: 'Compras'
+      item5: 'Compramos tu Coche'
 
     }
   },
