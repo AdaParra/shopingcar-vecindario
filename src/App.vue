@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss">
 
-@import './stylus/style.scss'
+    @import './style/_bulma.scss'
 
 </style>
 

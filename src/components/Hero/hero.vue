@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="hero is-medium">
-      <div class="hero-carousel">
+    <section class="hero is-fullheight has-carousel">
+      <div class="hero-carousel carousel-animated carousel-animate-fade" data-autoplay="true">
         <CarouselVue :carouselItems="images" accent-color="is-info"></CarouselVue>
       </div>
       <div class="hero-head">

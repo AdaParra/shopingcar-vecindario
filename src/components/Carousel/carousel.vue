@@ -1,17 +1,21 @@
 <template>
-    <div class='carousel-container'>
-        <div class='carousel-content carousel-animate carousel-animate-fade'>
-            <div class="carousel__item">
-                    <img class="is-background" :src="currentItem.src"></img>
-            </div>
-        </div>
-        <div class="carousel-nav-left">
-          <i class="fa fa-chevron-left" @click="nextItem"  aria-hidden="true"></i>
-        </div>
-        <div class="carousel-nav-right">
-          <i class="fa fa-chevron-right" @click="prevItem" aria-hidden="true"></i>
-        </div>
-    </div>
+      <div class='carousel-container'>
+          <div class='carousel-content carousel-animate carousel-animate-fade' data-autoplay="true">
+              <div class="carousel__item">
+                      <img class="is-background" :src="currentItem.src"></img>
+              </div>
+          </div>
+          <div class="carousel-nav-left">
+              <v-touch v-on:swipeleft="nextItem">
+                <i class="fa fa-chevron-left" @click="nextItem" aria-hidden="true"></i>
+              </v-touch>
+          </div>
+          <div class="carousel-nav-right">
+            <v-touch v-on:swiperight="prevItem">
+              <i class="fa fa-chevron-right" @click="prevItem" aria-hidden="true"></i>
+            </v-touch>
+          </div>
+      </div>
 </template>
 
 <script>
@@ -60,6 +64,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .carousel__item {
       flex-shrink: 0;
       flex-grow: 1;
@@ -76,9 +81,8 @@ export default {
       max-width: 100%;
       overflow: hidden;
 }
-
-.carousel {
-    height: 462px !important;
+img{
+  height: 100% !important;
+  width:  100% !important;
 }
-
 </style>
