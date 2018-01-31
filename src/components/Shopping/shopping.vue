@@ -13,7 +13,7 @@
       </div>
     </section>
 
-        <section class="section"> 
+        <section class="section">
           <div class="container">
             <h1 class="title"> Datos Personales </h1>
             <div class="columns">
@@ -186,7 +186,7 @@
                 <div class="column is-4">
                     <button class="button is-link is-medium is-focused is-fullwidth " v-on:click="onClick">  Enviar
                     </button>
-                    <!--<a class="button is-link is-medium is-focused is-fullwidth "> Agendar Cita </a> -->         
+                    <!--<a class="button is-link is-medium is-focused is-fullwidth "> Agendar Cita </a> -->
                 </div>
             </div>
 
@@ -195,7 +195,7 @@
 
     <FooterVue></FooterVue>
 </div>
-    
+
 </template>
 
 <script>
@@ -234,7 +234,7 @@ export default {
 <style scoped>
 
 .title{
-    color: #80C142 !important;
+    color: #ad0909 !important;
     font-family: 'Kaushan Script', cursive;
 }
 .subtitle{

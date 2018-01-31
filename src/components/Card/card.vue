@@ -1,6 +1,6 @@
 <template>
-<div>  
-    <section class="section">  
+<div>
+    <section class="section">
       <div class="columns is-multiline">
         <div  v-for='(coche, index) in coches' class="column is-one-quarter">
           <router-link :to="{ name: 'Detail', params: { id: index, detail: coche } }">
@@ -16,7 +16,7 @@
                     <p class="title is-3"> {{ coche.marca }}</p>
                     <p class="title is-5">  {{ coche.modelo }} </p>
                     <p class="subtitle is-5">  {{ coche.año }} </p>
-                    <p class="subtitle is-5" style="color: #80C142; font-weight: bold;">{{ coche.precio }}</p>
+                    <p class="subtitle is-5" style="color: #ad0909; font-weight: bold;">{{ coche.precio }}</p>
                   </div>
                 </div>
 
@@ -38,11 +38,11 @@
                       @page-changed="pageOneChanged">
           </Pagination>
         </section>
-        
+
       </div>
     </div>
 </div>
-    
+
 </template>
 
 <script>
@@ -73,7 +73,7 @@ export default {
 </script>
 
 <style scoped>
-  
+
 .media-content {
   text-align: center !important;
 }
@@ -82,7 +82,7 @@ export default {
 }
 .subtitle {
   margin-top: 1rem !important;
-} 
+}
 .content{
   text-align: center;
 }

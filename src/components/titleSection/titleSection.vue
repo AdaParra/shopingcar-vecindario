@@ -25,7 +25,7 @@
 
         </div>
       </div>
-    </section> 
+    </section>
 </template>
 
 <script>
@@ -57,7 +57,7 @@ export default {
     }
 
 .title{
-    color: #80C142 !important;
+    color: #ad0909 !important;
     font-family: 'Kaushan Script', cursive;
 }
 .subtitle{

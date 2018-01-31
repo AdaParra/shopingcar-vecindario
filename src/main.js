@@ -5,9 +5,11 @@ import VueTouch from 'vue-touch'
 import App from './App'
 import router from './router'
 import VueSweetAlert from 'vue-sweetalert'
+import VueCarousel from 'vue-carousel'
 
 Vue.use(VueSweetAlert)
 Vue.use(VueTouch)
+Vue.use(VueCarousel)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

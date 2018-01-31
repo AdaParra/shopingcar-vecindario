@@ -15,7 +15,7 @@
         </section>
         <section class="section">
           <div class="columns is-centered">
-            <div class="column is-5 has-text-justified">             
+            <div class="column is-5 has-text-justified">
               <h1 class="title is-3"> Nuestra Historia </h1>
               <p> <strong> SHOPING CAR, </strong>nacida en 2000 ,con el propósito de dar un servicio personalizado y al mejor precio a nuestros clientes. Ha conseguido afianzarse en el mercado de la venta de vehículos de segunda mano y seminuevos en Gran Canaria. <br> Ofreciendo una contrastada calidad y un excelente servicio post-venta. <br> <strong> Luis Arvelo, </strong> de su responsabilidad depende de que esa empresa esté hoy por hoy en el nivel que está, gracias a su buena gestión, experiencia en el campo y su excelente relación con sus clientes.</p>
             </div>
@@ -29,7 +29,7 @@
           <h1 class="title is-3 has-text-centered">
             Shoping Car te brinda
           </h1>
-          
+
           <div class="columns is-centered">
             <div class="column is-2">
               <div class="card">
@@ -98,7 +98,7 @@
           </div>
         </section>
     <FooterVue></FooterVue>
-</div>  
+</div>
 </template>
 
 <script>
@@ -129,7 +129,7 @@ export default {
 
 <style scoped>
     .title{
-        color: #80C142 !important;
+        color: #ad0909 !important;
         font-family: 'Kaushan Script', cursive;
     }
     .subtitle{
