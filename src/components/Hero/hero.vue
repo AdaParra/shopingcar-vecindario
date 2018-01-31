@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-fullheight has-carousel">
+    <section class="hero is-large has-carousel">
       <div class="hero-carousel carousel-animated carousel-animate-fade" data-autoplay="true">
         <CarouselVue :carouselItems="images" accent-color="is-info"></CarouselVue>
       </div>
@@ -33,8 +33,8 @@ export default {
   data () {
     return {
       images: [
-        { src: require('./assets/shopincar_portada_1.jpg') },
-        { src: require('./assets/coche_1.jpg') }
+        { src: require('./assets/portada.png') },
+        { src: require('./assets/coche.jpg') }
       ]
     }
   },
@@ -54,7 +54,7 @@ export default {
 <style scoped>
 
 .title{
-    color: #80C142 !important;
+    color: #ad0909 !important;
     font-family: 'Kaushan Script', cursive;
 }
 .subtitle{

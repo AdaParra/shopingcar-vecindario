@@ -3,7 +3,7 @@
           <div class="container">
             <div class="navbar-brand">
               <router-link :to="{ name: 'Home' }" class="navbar-item">
-                <p class="title has-text-white"> Shoping Car </p>
+                <p class="title has-text-white"> {{ tulogo }} </p>
               </router-link>
               <!--<a class="navbar-item">
                 <img src="./assets/Logo1.png" alt="Logo">
@@ -52,11 +52,12 @@ export default {
   name: 'Header',
   data () {
     return {
+      tulogo: 'VPCARS',
       item1: 'Inicio',
       item2: 'Coches',
-      item3: 'Conocenos',
-      item4: 'Contactanos',
-      item5: 'Compramos tu Coche'
+      item3: 'Conócenos',
+      item4: 'Contáctanos',
+      item5: 'Vendenos tu coche'
 
     }
   },
@@ -92,7 +93,7 @@ export default {
   background-color: rgb(54, 54, 54) !important;
 }
 a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link.is-active{
-  background-color: #23d160 !important;
+  background-color: #ad0909 !important;
 }
 
 </style>

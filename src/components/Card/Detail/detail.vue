@@ -1,13 +1,21 @@
 <template>
 <div>
     <HeaderVue :info='detail'></HeaderVue>
-    <section class="section">   
+    <section class="section">
     <div class="container">
     <div class="columns is-centered">
         <div class="column is-8">
-            <div class='carousel'>
+          <carousel :perPage="1" :navigationEnabled="true" :autoplayHoverPause="true" :autoplayTimeout="50">
+            <slide v-for="(coche, index) in detail.imageDetail" :key="detail.id">
+                <img :src="coche.src"></img>
+            </slide>
+          </carousel>
+            <!--<div class='carousel'>
               <CarouselVue :carouselItems="detail.imageDetail" accent-color="is-info"></CarouselVue>
-            </div>
+              img {
+                  height: 90vh !important;
+              }
+            </div> -->
         </div>
     </div>
     <div class="columns is-centered">
@@ -36,7 +44,7 @@
     <div class="columns is-centered">
         <div class="column is-4">
             <router-link :to="{ name: 'Quote', params: { id: detail.id, detail: detail } }" class="button is-link is-medium is-focused is-fullwidth ">  Agendar Cita
-            </router-link>         
+            </router-link>
         </div>
     </div>
     </div>
@@ -79,9 +87,6 @@ export default {
     padding-top: 3.5rem !important;
 }
 
-img {
-    height: 90vh !important;
-}
 .subtitle{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
