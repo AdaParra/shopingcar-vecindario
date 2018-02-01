@@ -18,7 +18,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      infosection_1: { title: 'Nuestros Coches', subtitle: 'Conoce cada uno de los detalles de los coches que tenemos a la venta.' }
+      infosection_1: { title: 'Nuestros coches', subtitle: 'Conoce cada uno de los detalles de los coches que tenemos a la venta.' }
     }
   },
   components: {

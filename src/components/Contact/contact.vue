@@ -104,7 +104,6 @@ export default {
     }
     .title{
         color: #80C142 !important;
-        font-family: 'Kaushan Script', cursive;
     }
     .subtitle{
         font-family: 'Roboto', sans-serif;

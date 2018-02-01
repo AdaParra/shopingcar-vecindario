@@ -55,7 +55,6 @@ export default {
 
 .title{
     color: #ad0909 !important;
-    font-family: 'Kaushan Script', cursive;
 }
 .subtitle{
     color: white !important;
