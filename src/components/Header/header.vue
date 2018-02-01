@@ -52,7 +52,7 @@ export default {
   name: 'Header',
   data () {
     return {
-      tulogo: 'VPCARS',
+      tulogo: 'Tu logo',
       item1: 'Inicio',
       item2: 'Coches',
       item3: 'Conócenos',
@@ -78,9 +78,6 @@ export default {
 
 <style scoped>
 
-.title{
-    font-family: 'Kaushan Script', cursive;
-}
 .subtitle{
     color: white !important;
     font-family: 'Roboto', sans-serif;

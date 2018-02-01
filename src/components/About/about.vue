@@ -130,7 +130,6 @@ export default {
 <style scoped>
     .title{
         color: #ad0909 !important;
-        font-family: 'Kaushan Script', cursive;
     }
     .subtitle{
         font-family: 'Roboto', sans-serif;

@@ -207,7 +207,7 @@ export default {
   name: 'Shopping',
   data () {
     return {
-      item1: 'Compramos tu Vehículo',
+      item1: 'Compramos tu coche',
       item2: '',
       item3: '',
       item4: '',
@@ -217,10 +217,10 @@ export default {
   methods: {
     onClick () {
       this.$swal({
-        title: 'Información Enviada',
-        text: 'Nos pondremos en contacto contigo ¡Pronto!',
+        title: 'Datos enviados',
+        text: '¡Nos pondremos en contacto contigo pronto!',
         icon: 'success',
-        button: 'Aceptar'
+        button: 'Listo'
       })
     }
   },
@@ -235,7 +235,6 @@ export default {
 
 .title{
     color: #ad0909 !important;
-    font-family: 'Kaushan Script', cursive;
 }
 .subtitle{
     font-family: 'Roboto', sans-serif;

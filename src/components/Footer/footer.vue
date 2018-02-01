@@ -37,7 +37,7 @@ export default{
   name: 'Footer',
   data () {
     return {
-      title: 'VPcars',
+      title: 'Tu logo',
       subtitle: 'Ubicanos en:',
       direccion: 'Avd de Canarias 89 -Frente a la Cruz Roja-, Vecindario (Gran Canaria) ',
       subtitle2: 'Nuestras Redes Sociales:'
@@ -56,7 +56,6 @@ export default{
 <style scoped>
     .title{
         color: #ad0909 !important;
-        font-family: 'Kaushan Script', cursive;
     }
     p{
         color: white;
